@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite 1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WalletHub_Assignments(failed)">
+    <classes>
+      <class name="Facebook_test.Facebooktest">
+        <methods>
+          <include name="go_to_facebook_login"/>
+          <include name="navigate_to_homepage_set_status"/>
+          <include name="setup"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- Facebook_test.Facebooktest -->
+      <class name="Wallethub_test.wallethub_assignment">
+        <methods>
+          <include name="check_stars"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Wallethub_test.wallethub_assignment -->
+    </classes>
+  </test> <!-- WalletHub_Assignments(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->
