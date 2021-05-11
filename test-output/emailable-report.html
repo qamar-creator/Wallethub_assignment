@@ -8,26 +8,43 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite 1</th></tr>
-<tr><td><a href="#t0">WalletHub_Assignments</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">57,601</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">23,075</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite 1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WalletHub_Assignments &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Facebook_test.Facebooktest</td><td><a href="#m0">go_to_facebook_login</a></td><td rowspan="1">1620677712998</td><td rowspan="1">14</td></tr><tr class="failedeven"><td><a href="#m1">navigate_to_homepage_set_status</a></td><td rowspan="1">1620677713016</td><td rowspan="1">10049</td></tr><tr class="failedodd"><td rowspan="1">Wallethub_test.wallethub_assignment</td><td><a href="#m2">check_stars</a></td><td rowspan="1">1620677705246</td><td rowspan="1">7740</td></tr><tr><th colspan="4">WalletHub_Assignments &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Wallethub_test.wallethub_assignment</td><td><a href="#m3">go_to_wallethub_login</a></td><td rowspan="1">1620677687307</td><td rowspan="1">17931</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Facebook_test.Facebooktest</td><td><a href="#m0">navigate_to_homepage_set_status</a></td><td rowspan="1">1620729675823</td><td rowspan="1">10118</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Facebook_test.Facebooktest</td><td><a href="#m1">go_to_facebook_login</a></td><td rowspan="1">1620729675225</td><td rowspan="1">589</td></tr></tbody>
 </table>
-<h2>WalletHub_Assignments</h2><h3 id="m0">Facebook_test.Facebooktest#go_to_facebook_login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [test insurance company metatitle test] but found [Facebook - Log In or Sign Up]
-	at Facebook_pages.Landing_page.verifyTitle(Landing_page.java:25)
-	at Facebook_test.Facebooktest.go_to_facebook_login(Facebooktest.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Facebook_test.Facebooktest#navigate_to_homepage_set_status</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: Not able to get to the home page
+<h2>Default test</h2><h3 id="m0">Facebook_test.Facebooktest#navigate_to_homepage_set_status</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: Not able to get to the home page
 	at Facebook_pages.Home_page.verify_Account_Name(Home_page.java:28)
-	at Facebook_test.Facebooktest.navigate_to_homepage_set_status(Facebooktest.java:55)
+	at Facebook_test.Facebooktest.navigate_to_homepage_set_status(Facebooktest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Wallethub_test.wallethub_assignment#check_stars</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: Can&apos;t post the review, system faced error,please check it
-	at Wallethub_pages.Wallet_check_stars.write_review(Wallet_check_stars.java:90)
-	at Wallethub_test.wallethub_assignment.check_stars(wallethub_assignment.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Wallethub_test.wallethub_assignment#go_to_wallethub_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Facebook_test.Facebooktest#go_to_facebook_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -16,11 +16,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Testbase {
 	  
 	 
-   public  static Properties prop;
-   public	static int attempts ;
-	WebElement uploadElement;
-     String  actualResult;
-	String expectedResult;
+  
+	 
 	public static  WebDriver driver;
 	 
 	

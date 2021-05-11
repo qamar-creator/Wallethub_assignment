@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Wallethub_test.wallethub_assignment">
+      <class name="Facebook_test.Facebooktest">
         <methods>
-          <include name="check_stars"/>
+          <include name="navigate_to_homepage_set_status"/>
           <include name="setup"/>
+          <include name="clear"/>
         </methods>
-      </class> <!-- Wallethub_test.wallethub_assignment -->
+      </class> <!-- Facebook_test.Facebooktest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
