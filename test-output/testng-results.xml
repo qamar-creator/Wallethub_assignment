@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-11T16:11:07 GMT+05:30" name="Default suite" finished-at="2021-05-11T16:11:30 GMT+05:30" duration-ms="23075">
+  <suite started-at="2021-05-11T18:11:24 GMT+05:30" name="Default suite" finished-at="2021-05-11T18:12:02 GMT+05:30" duration-ms="38692">
     <groups>
     </groups>
-    <test started-at="2021-05-11T16:11:07 GMT+05:30" name="Default test" finished-at="2021-05-11T16:11:30 GMT+05:30" duration-ms="23075">
-      <class name="Facebook_test.Facebooktest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Facebook_test.Facebooktest@c333c60]" started-at="2021-05-11T16:11:07 GMT+05:30" name="setup" finished-at="2021-05-11T16:11:15 GMT+05:30" duration-ms="7511" status="PASS">
+    <test started-at="2021-05-11T18:11:24 GMT+05:30" name="Default test" finished-at="2021-05-11T18:12:02 GMT+05:30" duration-ms="38692">
+      <class name="Wallethub_test.wallethub_assignment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Wallethub_test.wallethub_assignment@69e1dd28]" started-at="2021-05-11T18:11:24 GMT+05:30" name="setup" finished-at="2021-05-11T18:11:36 GMT+05:30" duration-ms="12148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="go_to_facebook_login()[pri:1, instance:Facebook_test.Facebooktest@c333c60]" started-at="2021-05-11T16:11:15 GMT+05:30" name="go_to_facebook_login" finished-at="2021-05-11T16:11:15 GMT+05:30" duration-ms="589" status="PASS">
+        <test-method signature="go_to_wallethub_login()[pri:1, instance:Wallethub_test.wallethub_assignment@69e1dd28]" started-at="2021-05-11T18:11:36 GMT+05:30" name="go_to_wallethub_login" finished-at="2021-05-11T18:11:51 GMT+05:30" duration-ms="15153" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- go_to_facebook_login -->
-        <test-method signature="navigate_to_homepage_set_status()[pri:2, instance:Facebook_test.Facebooktest@c333c60]" started-at="2021-05-11T16:11:15 GMT+05:30" name="navigate_to_homepage_set_status" finished-at="2021-05-11T16:11:25 GMT+05:30" duration-ms="10118" status="FAIL">
+        </test-method> <!-- go_to_wallethub_login -->
+        <test-method signature="check_stars()[pri:2, instance:Wallethub_test.wallethub_assignment@69e1dd28]" started-at="2021-05-11T18:11:51 GMT+05:30" name="check_stars" finished-at="2021-05-11T18:12:02 GMT+05:30" duration-ms="11325" status="FAIL">
           <exception class="java.lang.Exception">
             <message>
-              <![CDATA[Not able to get to the home page]]>
+              <![CDATA[Can't post the review, system faced error,please check it]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Exception: Not able to get to the home page
-at Facebook_pages.Home_page.verify_Account_Name(Home_page.java:28)
-at Facebook_test.Facebooktest.navigate_to_homepage_set_status(Facebooktest.java:54)
+              <![CDATA[java.lang.Exception: Can't post the review, system faced error,please check it
+at Wallethub_pages.Wallet_check_stars.write_review(Wallet_check_stars.java:87)
+at Wallethub_test.wallethub_assignment.check_stars(wallethub_assignment.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,12 +57,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate_to_homepage_set_status -->
-        <test-method is-config="true" signature="clear()[pri:0, instance:Facebook_test.Facebooktest@c333c60]" started-at="2021-05-11T16:11:25 GMT+05:30" name="clear" finished-at="2021-05-11T16:11:30 GMT+05:30" duration-ms="4793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clear -->
-      </class> <!-- Facebook_test.Facebooktest -->
+        </test-method> <!-- check_stars -->
+      </class> <!-- Wallethub_test.wallethub_assignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

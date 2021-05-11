@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\MinzaMushtaq3\AppData\Local\Temp\testng-eclipse--53354055\testng-customsuite.xml</span>
+                    <span>C:\Users\MinzaMushtaq3\AppData\Local\Temp\testng-eclipse--1840387411\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Facebook_test.Facebooktest" class="method navigator-link" hash-for-method="navigate_to_homepage_set_status">navigate_to_homepage_set_status</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Wallethub_test.wallethub_assignment" class="method navigator-link" hash-for-method="check_stars">check_stars</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,7 +118,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Facebook_test.Facebooktest" class="method navigator-link" hash-for-method="go_to_facebook_login">go_to_facebook_login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Wallethub_test.wallethub_assignment" class="method navigator-link" hash-for-method="go_to_wallethub_login">go_to_wallethub_login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -136,17 +136,17 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Facebook_test.Facebooktest</span>
+              <span class="class-name">Wallethub_test.wallethub_assignment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="navigate_to_homepage_set_status">
-                  </a> <!-- navigate_to_homepage_set_status -->
-                  <span class="method-name">navigate_to_homepage_set_status</span>
-                  <div class="stack-trace">java.lang.Exception: Not able to get to the home page
-	at Facebook_pages.Home_page.verify_Account_Name(Home_page.java:28)
-	at Facebook_test.Facebooktest.navigate_to_homepage_set_status(Facebooktest.java:54)
+                  <a name="check_stars">
+                  </a> <!-- check_stars -->
+                  <span class="method-name">check_stars</span>
+                  <div class="stack-trace">java.lang.Exception: Can&apos;t post the review, system faced error,please check it
+	at Wallethub_pages.Wallet_check_stars.write_review(Wallet_check_stars.java:87)
+	at Wallethub_test.wallethub_assignment.check_stars(wallethub_assignment.java:56)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,14 +184,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Facebook_test.Facebooktest</span>
+              <span class="class-name">Wallethub_test.wallethub_assignment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="go_to_facebook_login">
-                  </a> <!-- go_to_facebook_login -->
-                  <span class="method-name">go_to_facebook_login</span>
+                  <a name="go_to_wallethub_login">
+                  </a> <!-- go_to_wallethub_login -->
+                  <span class="method-name">go_to_wallethub_login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +199,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\MinzaMushtaq3\AppData\Local\Temp\testng-eclipse--53354055\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\MinzaMushtaq3\AppData\Local\Temp\testng-eclipse--1840387411\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,7 +208,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Facebook_test.Facebooktest&quot;/&gt;
+      &lt;class name=&quot;Wallethub_test.wallethub_assignment&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -250,18 +250,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'navigate_to_homepage_set_status')
-data.setCell(0, 2, 'Facebook_test.Facebooktest')
-data.setCell(0, 3, 10118);
+data.setCell(0, 1, 'go_to_wallethub_login')
+data.setCell(0, 2, 'Wallethub_test.wallethub_assignment')
+data.setCell(0, 3, 15153);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'go_to_facebook_login')
-data.setCell(1, 2, 'Facebook_test.Facebooktest')
-data.setCell(1, 3, 589);
+data.setCell(1, 1, 'check_stars')
+data.setCell(1, 2, 'Wallethub_test.wallethub_assignment')
+data.setCell(1, 3, 11325);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -287,25 +287,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Facebook_test.Facebooktest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Wallethub_test.wallethub_assignment</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">go_to_facebook_login</span>
-                <span class="method-start">7551 ms</span>
+                <span class="method-name">go_to_wallethub_login</span>
+                <span class="method-start">12178 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">navigate_to_homepage_set_status</span>
-                <span class="method-start">8149 ms</span>
+                <span class="method-name">check_stars</span>
+                <span class="method-start">27341 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">clear</span>
-                <span class="method-start">18275 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

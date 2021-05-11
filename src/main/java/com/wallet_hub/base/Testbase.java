@@ -2,12 +2,12 @@ package com.wallet_hub.base;
  
 import java.io.IOException;
  
-import java.util.Properties;
+
 import java.util.concurrent.TimeUnit;
 
  
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import com.wallethub.utils.utils;
 import com.wallet_hub.environmentvariables.*;
 import org.openqa.selenium.chrome.ChromeDriver;
